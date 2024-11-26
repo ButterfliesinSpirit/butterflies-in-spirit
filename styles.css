@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    font-family: "Geist Mono", monospace;
+}
+
+p {
+    color: #FF0000;
+}
+
+li {
+    color: rgb(238, 75, 43);
+}
+
+h1 {
+    color: #FF0000;
+}
+h2 {
+    color: #FF0000;
+}
