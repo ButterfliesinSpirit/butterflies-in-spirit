@@ -19,14 +19,15 @@ li {
 }
 
 h1 {
-    color: #FF0000;
+    color: red;
     font-style: oblique;
     font-weight: bold;
     font-size: 39px;
     text-align: center;
 }
 h2 {
-    color: #FF0000;
+    color: red;
+    font-weight: bold;
 }
 
 figcaption {
@@ -82,6 +83,7 @@ section div{
     height: 100px;
     padding: 10px;
     border: 4px solid whitesmoke;
+    margin: 0 auto;
 }
 
 .border-box{
@@ -103,4 +105,21 @@ section div{
 
 #article{
     background-color: grey;
+}
+
+.bis-logo{
+    max-width: 90%;
+    margin: 0 auto;
+    /* for images we must change the display to block for the margin: auto; trick to work. */
+    display: block;
+}
+
+header{
+    background-image: url("https://smartcdn.gprod.postmedia.digital/vancouversun/wp-content/uploads/2017/05/brenda-williams-photo-for-a-story-by-lori-culbert-on-the-mm.jpeg?w=1128&quality=90&strip=all&type=webp&sig=cxBvwEJ2Ci8tJdRPWoCY4Q");
+    width: 100%;
+    height: auto 80px;
+}
+
+.bg-photo{
+    background-image: url("./images/Tanya\ Holyk.jpg");
 }
