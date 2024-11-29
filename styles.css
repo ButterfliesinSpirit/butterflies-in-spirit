@@ -40,16 +40,16 @@ footer p{
 }
 
 section p {
-    color: aqua;
+    color: red;
 }
 
 /* parent + space + nested child(target) */
 ol li {
-    color: darkgray;
+    color: red;
 }
 
 ul li {
-    color: brown;
+    color: red;
 }
 figcaption a {
     text-decoration: none;
@@ -68,17 +68,16 @@ figcaption a:active {
 section div{
     width: 100px;
     height: 100px;
-    background-color: lightsalmon;
+    background-color: red;
     /*1st shorthand option: 1 value - all sides */
     margin: 20px;
     padding: 10px;
     /*border will take 3 values: 1st-width, 2nd-style 3rd color*/
-    border-bottom: 4px solid blue;
-    border-top: 4px dotted blue;
+    border: 4px solid white;
 }
 
 .content-box{
-    background-color: orange;
+    background-color: yellow;
     width: 100px;
     height: 100px;
     padding: 10px;
@@ -87,7 +86,7 @@ section div{
 }
 
 .border-box{
-    background-color: lightgreen;
+    background-color: whitesmoke;
     width: 100px;
     height: 100px;
     padding: 10px;
@@ -100,7 +99,7 @@ section div{
 }
 
 .second-para{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #article{
